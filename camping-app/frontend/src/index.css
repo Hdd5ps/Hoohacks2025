@@ -1,0 +1,17 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles (if any) */
+body {
+    @apply bg-gray-100;
+}
+
+header {
+    @apply bg-blue-500 text-white p-4;
+}
+
+.container {
+    @apply mx-auto p-4;
+}
